@@ -1,0 +1,21 @@
+@media all and (max-width: 560px) {
+}
+@media all and (min-width: 560px) {
+}
+@media all and (min-width: 780px) {
+}
+@media all and (min-width: 992px) {
+}
+@media all and (min-width: 1200px) {
+}
+@media all and (min-width: 1400px) {
+}
+.floud-container {
+  width: 100%;
+}
+.container {
+  max-width: 980px;
+}
+.image-full-width {
+  width: 100%;
+}
