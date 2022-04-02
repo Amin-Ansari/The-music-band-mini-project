@@ -558,6 +558,9 @@ li {
 .font-size-18 {
   font-size: 18px;
 }
+.font-size-19 {
+  font-size: 19px;
+}
 .font-size-24 {
   font-size: 24px;
 }
@@ -565,6 +568,9 @@ li {
   font-size: 30px;
 }
 
+.bold-font {
+  font-weight: 600;
+}
 .menu-weigh {
   font-weight: 600;
 }
@@ -573,7 +579,7 @@ li {
   color: #000;
 }
 .semi-black-color {
-  color: #242424;
+  color: #2c2c2c;
 }
 .gray-color {
   color: #666666;
@@ -612,6 +618,10 @@ li {
 .fast-transition {
   transition: all 0.3s;
 }
+
+.img-radious {
+  border-radius: 18px;
+}
 /* The styles that had been specified only for one or two element  */
 .navigation-justify {
   justify-content: space-between !important;
@@ -637,6 +647,7 @@ li {
 .member-image {
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .member-names {
   flex-direction: row;
