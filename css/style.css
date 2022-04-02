@@ -541,6 +541,12 @@ li {
 .flex-row-reverse {
   flex-direction: row-reverse;
 }
+.flex-centered {
+  justify-content: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
 
 .heading-fonts {
   font-family: "Vazir";
@@ -561,13 +567,18 @@ li {
 .font-size-19 {
   font-size: 19px;
 }
+.font-size-22 {
+  font-size: 22px;
+}
 .font-size-24 {
   font-size: 24px;
 }
 .font-size-30 {
   font-size: 30px;
 }
-
+.english-font {
+  font-family: "Segoe UI", Tahoma,  Verdana, sans-serif;
+}
 .bold-font {
   font-weight: 600;
 }
@@ -618,10 +629,19 @@ li {
 .fast-transition {
   transition: all 0.3s;
 }
-
 .img-radious {
   border-radius: 18px;
 }
+.image-half-width {
+  width: 70%;
+}
+.italic-style {
+  font-style: italic;
+}
+.table-border {
+  border-bottom: 1px solid #b4b4b4;
+}
+
 /* The styles that had been specified only for one or two element  */
 .navigation-justify {
   justify-content: space-between !important;
@@ -652,6 +672,15 @@ li {
 .member-names {
   flex-direction: row;
   justify-content: space-around;
+}
+.spc-between {
+  justify-content: space-between;
+}
+.remain-radious {
+  border-radius: 100px;
+}
+.map-filter {
+  filter: grayscale(54%);
 }
 /* The hover style */
 .navigation-hover:hover {
@@ -685,4 +714,7 @@ li {
 }
 .mob-hover:hover > a {
   color: #000;
+}
+.social-hover:hover {
+  color: rgb(150, 150, 150);
 }
