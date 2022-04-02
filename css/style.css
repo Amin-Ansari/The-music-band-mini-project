@@ -502,6 +502,19 @@ li {
   text-align: center;
 }
 
+.dis-inline {
+  display: inline;
+}
+.dis-inline-block {
+  display: inline-block;
+}
+.dis-block {
+  display: block;
+}
+.dis-flex {
+  display: flex;
+}
+
 .pos-absolute {
   position: absolute;
 }
@@ -521,6 +534,13 @@ li {
 
 .font-size-14 {
   font-size: 14px;
+}
+.font-size-15 {
+  font-size: 15;
+}
+.font-size-18 {
+  font-size: 18px;
+  font-weight: bold;
 }
 .font-size-24 {
   font-size: 24px;
@@ -544,6 +564,9 @@ li {
 .red-color {
   color: #f44336;
 }
+.white-color {
+  color: #fff;
+}
 
 .black-background {
   background-color: #000;
@@ -554,7 +577,35 @@ li {
 .red-background {
   background-color: #f44336;
 }
+.sub-hide {
+  display: none;
+}
 
 /* The styles that had been specified only for one or two element  */
-
+.navigation-alignment {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.sub-menu-position {
+  top: 47.5px;
+}
+.sub-menu-alignment {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.padd-sub {
+  padding: 8px 8px 10px 78px;
+}
 /* The hover style */
+.navigation-hover:hover {
+  background-color: #ccc;
+}
+.navigation-hover:hover > a {
+  color: #000;
+}
+.sub-hover:hover {
+  background-color: #ccc;
+}
+.sub-show:hover > ul {
+  display: flex;
+}
