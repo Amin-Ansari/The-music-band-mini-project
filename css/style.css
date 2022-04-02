@@ -606,7 +606,16 @@ li {
 .caret-transition {
   transition: transform 1s;
 }
+.slow-transition {
+  transition: all 0.5s;
+}
+.fast-transition {
+  transition: all 0.3s;
+}
 /* The styles that had been specified only for one or two element  */
+.navigation-justify {
+  justify-content: space-between !important;
+}
 .navigation-alignment {
   flex-direction: row;
   justify-content: flex-start;
@@ -650,4 +659,19 @@ li {
 }
 .sub-show:hover > ul {
   display: flex;
+}
+.button-hover-red:hover {
+  background-color: #f44336;
+}
+.bars-hover:hover {
+  background-color: #ccc;
+}
+.bars-hover:hover > i {
+  color: #000;
+}
+.mob-hover:hover {
+  background-color: #ccc;
+}
+.mob-hover:hover > a {
+  color: #000;
 }
