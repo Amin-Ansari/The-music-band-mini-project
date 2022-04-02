@@ -35,6 +35,9 @@
   .width-xs-12 {
     width: 100%;
   }
+  .mobile-txt {
+    display: none !important;
+  }
 }
 @media all and (min-width: 560px) {
   .width-sm-1 {

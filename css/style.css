@@ -540,13 +540,16 @@ li {
 }
 .font-size-18 {
   font-size: 18px;
-  font-weight: bold;
 }
 .font-size-24 {
   font-size: 24px;
 }
 .font-size-30 {
   font-size: 30px;
+}
+
+.menu-weigh {
+  font-weight: 600;
 }
 
 .black-color {
@@ -580,21 +583,27 @@ li {
 .sub-hide {
   display: none;
 }
-
+.header-text-position {
+  bottom: 125px;
+}
 /* The styles that had been specified only for one or two element  */
 .navigation-alignment {
   flex-direction: row;
   justify-content: flex-start;
 }
 .sub-menu-position {
-  top: 47.5px;
+  top: 45.5px;
+  transform: translateX(28px);
 }
 .sub-menu-alignment {
   flex-direction: column;
   justify-content: flex-start;
 }
 .padd-sub {
-  padding: 8px 8px 10px 78px;
+  padding: 8px 8px 10px 100px;
+}
+.padd-sub-2 {
+  padding: 8px 8px 10px 70px;
 }
 /* The hover style */
 .navigation-hover:hover {
