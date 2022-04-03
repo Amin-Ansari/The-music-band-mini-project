@@ -167,14 +167,14 @@
     <section class="floud-container">
       <div class="container centered-margin">
         <div class="centered-text padd-right-left-80">
-          <h2 class="heading-fonts font-size-30">درباره گروه</h2>
+          <h2 class="heading-fonts font-size-30 mob-head-padd">درباره گروه</h2>
           <p
             class="heading-fonts font-size-15 light-gray-color padd-top-bottom-10"
           >
             ما عاشق موزیک هستیم
           </p>
           <p
-            class="justified-text padd-top-bottom-28 font-size-19 semi-black-color"
+            class="justified-text padd-top-bottom-28 font-size-19 semi-black-color heading-fonts font-size-14 semi-black-color"
           >
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
             استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
@@ -240,7 +240,9 @@
           رزو بلیط فراموش نشود
         </p>
         <div>
-          <ul class="white-background margin-top-bottom-20">
+          <ul
+            class="white-background margin-top-bottom-20 margin-right-left-36"
+          >
             <li
               class="padd-top-bottom-10 padd-right-left-16 table-border dis-flex"
             >
@@ -256,7 +258,7 @@
             >
               <p class="heading-fonts">آبان</p>
               <p
-                class="margin-right-left-12 red-background white-color padd-right-left-12 font-size-15 heading-fonts"
+                class="margin-right-left-12 red-background white-color padd-right-left-12 font-size-15 heading-fonts buy-btn"
               >
                 تمام شده
               </p>
@@ -273,25 +275,93 @@
             </li>
           </ul>
         </div>
-        <div class="container red-background">
-          <ul class="dis-flex flex-row flex-wrap">
-            <li class="padd-right-left-10 padd-top-bottom-10">
-              <div class="black-background">
-                <img />
+        <div class="container padd-right-left-20">
+          <ul class="city-flex padd-top-bottom-10">
+            <li
+              class="white-background city-items margin-right-left-20 margin-top-bottom-10"
+            >
+              <div class="pos-relative img-hover">
+                <img
+                  src="images/sanfran.jpg"
+                  alt="Picture of sanfrancisco"
+                  class="image-full-width"
+                />
+                <div class="pos-absolute effect"></div>
               </div>
-              <div class="black-background"></div>
+              <div class="padd-right-left-10 padd-top-bottom-10">
+                <h4 class="heading-fonts font-size-15 padd-top-bottom-5">
+                  سان فرانسیسکو
+                </h4>
+                <p class="heading-fonts font-size-14 gray-color">
+                  یکشنبه 29 آذر
+                </p>
+                <p class="padd-top-bottom-8 heading-fonts font-size-14">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
+                  با
+                </p>
+                <button
+                  class="buy-ticket black-background heading-fonts buy-btn"
+                  id="buy"
+                >
+                  خرید بلیط
+                </button>
+              </div>
             </li>
-            <li class="padd-right-left-10 padd-top-bottom-10">
-              <div class="black-background">
-                <img />
+            <li
+              class="white-background city-items margin-right-left-20 margin-top-bottom-10"
+            >
+              <div class="pos-relative img-hover">
+                <img
+                  src="images/paris.jpg"
+                  alt="Picture of paris"
+                  class="image-full-width"
+                />
+                <div class="pos-absolute effect"></div>
               </div>
-              <div class="black-background"></div>
+              <div class="padd-right-left-20 padd-top-bottom-10">
+                <h4 class="heading-fonts font-size-15 padd-top-bottom-5">
+                  پاریس
+                </h4>
+                <p class="heading-fonts font-size-14 gray-color">شنبه 28 آذر</p>
+                <p class="padd-top-bottom-8 heading-fonts font-size-14">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
+                  با
+                </p>
+                <button
+                  class="buy-ticket black-background heading-fonts buy-btn"
+                  id="buy"
+                >
+                  خرید بلیط
+                </button>
+              </div>
             </li>
-            <li class="padd-right-left-10 padd-top-bottom-10">
-              <div class="black-background">
-                <img />
+            <li
+              class="white-background city-items margin-right-left-20 margin-top-bottom-10"
+            >
+              <div class="pos-relative img-hover">
+                <img
+                  src="images/newyork.jpg"
+                  alt="Picture of newyork"
+                  class="image-full-width"
+                />
+                <div class="pos-absolute effect"></div>
               </div>
-              <div class="black-background"></div>
+              <div class="padd-right-left-20 padd-top-bottom-10">
+                <h4 class="heading-fonts font-size-15 padd-top-bottom-5">
+                  نیویورک
+                </h4>
+                <p class="heading-fonts font-size-14 gray-color">جمعه 27 آذر</p>
+                <p class="padd-top-bottom-8 heading-fonts font-size-14">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و
+                  با
+                </p>
+                <button
+                  class="buy-ticket black-background heading-fonts buy-btn"
+                  id="buy"
+                >
+                  خرید بلیط
+                </button>
+              </div>
             </li>
           </ul>
         </div>
@@ -301,16 +371,53 @@
       <div></div>
     </section>
     <section>
-      <div>
-        <h2></h2>
-        <div>
-          <form action="#">
+      <div class="centered-margin centered-text">
+        <h2 class="headings-top-headings heading-fonts">ارتباط با ما</h2>
+        <p class="padd-top-bottom-12 heading-fonts font-size-14 gray-color">
+          اگر مایل هستید برا ما پیغام بگذارید
+        </p>
+        <div
+          class="dis-flex spc-around font-size-18 flex-wrap heading-fonts padd-top-bottom-70 padd-right-left-70"
+        >
+          <div class="right-aligned-text">
+            <i class="fa fa-map-marker margin-right-left-5 font-size-18"></i>
+            <p class="dis-inline-block heading-fonts">شیکاگو،آمریکا</p>
+            <br />
+            <i
+              class="fa fa-phone margin-right-left-5 font-size-18 padd-top-bottom-10"
+            ></i>
+            <p class="dis-inline-block heading-fonts padd-top-bottom-10">
+              شماره تماس: 09123333333
+            </p>
+            <br />
+            <i class="fa fa-envelope margin-right-left-5 font-size-18"></i>
+            <p class="dis-inline-block heading-fonts">امیل: mail@mail.com</p>
+            <br />
+          </div>
+          <form action="#" class="">
             <input
               type="
             "
+              class="input-style width-xs-12 width-sm-12 width-in-md-6 width-in-lg-6 width-in-xl-6 width-in-xxl-6 margin-top-bottom-5"
+              placeholder="نام"
             />
-            <input type="text" />
-            <input type="text" />
+            <input
+              type="text"
+              class="input-style width-xs-12 width-sm-12 width-in-md-6 width-in-lg-6 width-in-xl-6 width-in-xxl-6 margin-top-bottom-5"
+              placeholder="ایمیل"
+            />
+            <input
+              type="text"
+              class="input-style width-xs-12 width-sm-12 width-md-12 width-lg-12 width-xl-12 width-xxl-12 margin-top-bottom-5"
+              placeholder="پیغام"
+              style="margin-left: 0px; margin-right: 0px"
+            />
+            <button
+              class="buy-ticket black-background heading-fonts buy-btn dis-block"
+              id="buy"
+            >
+              ارسال
+            </button>
           </form>
         </div>
       </div>

@@ -36,6 +36,10 @@ a {
 li {
   list-style-type: none;
 }
+button {
+  border: none;
+  outline: none;
+}
 /* The most common styles */
 .padd-top-bottom-3 {
   padding-top: 3px;
@@ -547,6 +551,9 @@ li {
 .flex-wrap {
   flex-wrap: wrap;
 }
+.spc-around {
+  justify-content: space-around;
+}
 
 .heading-fonts {
   font-family: "Vazir";
@@ -577,7 +584,7 @@ li {
   font-size: 30px;
 }
 .english-font {
-  font-family: "Segoe UI", Tahoma,  Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
 }
 .bold-font {
   font-weight: 600;
@@ -641,6 +648,17 @@ li {
 .table-border {
   border-bottom: 1px solid #b4b4b4;
 }
+.buy-ticket {
+  padding: 6px 13px;
+  text-align: center;
+  color: #fff;
+  font-size: 14.7px;
+}
+.input-style {
+  height: 35px;
+  padding: 5px;
+  font-size: 18px;
+}
 
 /* The styles that had been specified only for one or two element  */
 .navigation-justify {
@@ -682,6 +700,23 @@ li {
 .map-filter {
   filter: grayscale(54%);
 }
+.city-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.city-items {
+  max-width: 260px;
+  min-width: 170px;
+}
+.effect {
+  background-color: rgba(0, 0, 0, 0.384);
+  width: 100%;
+  height: 97%;
+  top: 0px;
+  display: none;
+}
 /* The hover style */
 .navigation-hover:hover {
   background-color: #ccc;
@@ -717,4 +752,11 @@ li {
 }
 .social-hover:hover {
   color: rgb(150, 150, 150);
+}
+.buy-btn:hover {
+  background-color: #ccc;
+  color: #000;
+}
+.img-hover:hover > div {
+  display: block;
 }
