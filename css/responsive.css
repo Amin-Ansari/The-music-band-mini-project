@@ -57,6 +57,10 @@
     margin-right: 0px;
     margin-left: 0px;
   }
+  .input-marg-2 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
 }
 @media all and (min-width: 560px) {
   .width-sm-1 {
@@ -117,6 +121,10 @@
     margin-right: 0px;
     margin-left: 0px;
   }
+  .input-marg-2 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
 }
 @media all and (min-width: 780px) {
   .width-md-1 {
@@ -172,10 +180,14 @@
   }
   .input-marg {
     margin-right: 4px;
+    margin-left: 0px;
+  }
+  .input-marg-2 {
+    margin-right: 0px;
     margin-left: 4px;
   }
   .width-in-md-6 {
-    width: 45%;
+    width: 47%;
   }
 }
 @media all and (min-width: 992px) {
@@ -225,11 +237,15 @@
     display: none !important;
   }
   .input-marg {
-    margin-right: 6px;
-    margin-left: 6px;
+    margin-right: 4px;
+    margin-left: 0px;
+  }
+  .input-marg-2 {
+    margin-right: 0px;
+    margin-left: 4px;
   }
   .width-in-lg-6 {
-    width: 45%;
+    width: 47%;
   }
 }
 @media all and (min-width: 1200px) {
@@ -279,11 +295,15 @@
     display: none !important;
   }
   .input-marg {
-    margin-right: 6px;
-    margin-left: 6px;
+    margin-right: 4px;
+    margin-left: 0px;
+  }
+  .input-marg-2 {
+    margin-right: 0px;
+    margin-left: 4px;
   }
   .width-in-xl-6 {
-    width: 45%;
+    width: 47%;
   }
 }
 @media all and (min-width: 1400px) {
@@ -333,11 +353,19 @@
     display: none !important;
   }
   .input-marg {
-    margin-right: 6px;
-    margin-left: 6px;
+    margin-right: 4px;
+    margin-left: 0px;
+  }
+  .input-marg-2 {
+    margin-right: 0px;
+    margin-left: 4px;
+  }
+  .input-marg-2 {
+    margin-right: 0px;
+    margin-left: 0px;
   }
   .width-in-xxl-6 {
-    width: 45%;
+    width: 47%;
   }
 }
 .floud-container {
