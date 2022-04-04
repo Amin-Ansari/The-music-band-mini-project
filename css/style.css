@@ -655,11 +655,17 @@ button {
   font-size: 14.7px;
 }
 .input-style {
-  height: 35px;
+  height: 37px;
   padding: 5px;
-  font-size: 18px;
+  font-size: 17px;
+  font-family: Vazir;
 }
-
+.send {
+  padding: 6px 17px;
+  text-align: center;
+  color: #fff;
+  font-size: 14.7px;
+}
 /* The styles that had been specified only for one or two element  */
 .navigation-justify {
   justify-content: space-between !important;
