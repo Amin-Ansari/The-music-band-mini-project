@@ -666,6 +666,10 @@ button {
   color: #fff;
   font-size: 14.7px;
 }
+.hover-size {
+  transform: scale(0.95);
+  transition: all 0.5s;
+}
 /* The styles that had been specified only for one or two element  */
 .navigation-justify {
   justify-content: space-between !important;
@@ -768,6 +772,5 @@ button {
   transition: all 0.4s;
 }
 .img-hover:hover > img {
-  padding: px;
-  transition: all 1s;
+  transform: scale(1);
 }
