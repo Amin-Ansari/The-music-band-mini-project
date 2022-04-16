@@ -48,7 +48,7 @@
     display: none;
   }
   .show-menu {
-    display: block !important;
+    transform: translate(0px, 0px) !important;
   }
   .mob-head-padd {
     padding-top: 80px !important;
@@ -108,7 +108,7 @@
     display: none;
   }
   .show-menu {
-    display: block !important;
+    transform: translate(0px, 0px) !important;
   }
   .mob-head-padd {
     padding-top: 80px !important;

@@ -670,6 +670,9 @@ button {
   transform: scale(0.95);
   transition: all 0.5s;
 }
+.menu-place {
+  transform: translate(0px, -300px);
+}
 /* The styles that had been specified only for one or two element  */
 .navigation-justify {
   justify-content: space-between !important;
